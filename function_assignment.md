@@ -16,32 +16,28 @@
 ### Assignment Management (Iteration 2 & 3)
 | Function | Effort | Iteration | Priority |
 |----------|--------|-----------|----------|
-| Create Assignment Manual | 3 | Iter 2 | Highest |
 | Create Assignment By Uploading Files | 3 | Iter 2 | Highest |
-| Update Assignment | 2 | Iter 2 | High |
 | View Assignment (Teacher) | 1 | Iter 2 | Medium |
 | View Assignment (Student) | 1 | Iter 2 | High |
-| Delete Assignment | 1 | Iter 2 | Low |
-| Create Assignment By Importing From Resource Bank | 2 | Iter 3 | High |
 
-### Bank Operations (Iteration 2 & 3)
+### Bank Operations (Iteration 2)
 | Function | Effort | Iteration | Priority |
 |----------|--------|-----------|----------|
 | Create Resource Bank | 2 | Iter 2 | Highest |
 | Edit Resource Bank | 2 | Iter 2 | Medium |
 | View Resource Bank | 2 | Iter 2 | High |
 | Delete Resource Bank | 1 | Iter 2 | Low |
-| Download Resource Bank | 2 | Iter 3 | Medium |
 
 ### AI Features (Iteration 3)
 | Function | Effort | Priority |
 |----------|--------|----------|
 | Create Assignment With AI | 3 | Highest |
 | Create Question With AI | 4 | High |
+| Grade Essay With AI Feedback | 4 | High |
 
 ---
 
-## ToanDV - Profile Management + Class Participation + Submission & Grading + Analytics
+## ToanDV - Profile Management + Submission & Grading + Analytics
 
 ### Profile Management (Iteration 1)
 | Function | Effort | Priority |
@@ -51,15 +47,6 @@
 | View Profile | 1 | High |
 | View Notifications | 1 | Medium |
 
-### Class Participation (Iteration 2 & 3)
-| Function | Effort | Iteration | Priority |
-|----------|--------|-----------|----------|
-| Search Class | 2 | Iter 2 | High |
-| Join Class | 2 | Iter 2 | High |
-| Approve/Reject Student Requests | 2 | Iter 2 | High |
-| View Class Information | 1 | Iter 2 | Medium |
-| Leave Class | 1 | Iter 3 | Low |
-
 ### Submission & Grading (Iteration 2 & 3)
 | Function | Effort | Iteration | Priority |
 |----------|--------|-----------|----------|
@@ -67,7 +54,6 @@
 | Submit Assignment | 2 | Iter 2 | High |
 | Grade Manual Essay | 2 | Iter 2 | Medium |
 | View Grade Submissions | 2 | Iter 2 | Medium |
-| Grade Essay With AI Feedback | 4 | Iter 3 | High |
 
 ### Analytics & Results (Iteration 3)
 | Function | Effort | Priority |
@@ -79,7 +65,7 @@
 
 ---
 
-## HuyMT - Class Administration + User & System Management + Posts & Comments
+## HuyMT - Class Administration + Class Participation + User & System Management
 
 ### Class Administration (Iteration 1)
 | Function | Effort | Priority |
@@ -87,6 +73,15 @@
 | Create Class | 2 | Highest |
 | Update Class | 2 | High |
 | Delete Class | 1 | Low |
+
+### Class Participation (Iteration 2 & 3)
+| Function | Effort | Iteration | Priority |
+|----------|--------|-----------|----------|
+| Search Class | 2 | Iter 2 | High |
+| Join Class | 2 | Iter 2 | High |
+| Approve/Reject Student Requests | 2 | Iter 2 | High |
+| View Class Information | 1 | Iter 2 | Medium |
+| Leave Class | 1 | Iter 3 | Low |
 
 ### User & System Management (Iteration 1 & 3)
 | Function | Effort | Iteration | Priority |
@@ -98,21 +93,9 @@
 | Reset User Password | 2 | Iter 3 | Medium |
 | View System Dashboard | 2 | Iter 3 | Medium |
 
-### Posts & Comments (Iteration 2 & 3)
-| Function | Effort | Iteration | Priority |
-|----------|--------|-----------|----------|
-| Create Post | 2 | Iter 2 | Medium |
-| Update Post | 1 | Iter 2 | Low |
-| View Post | 1 | Iter 2 | Medium |
-| Create Comment | 1 | Iter 2 | Medium |
-| Update Comment | 1 | Iter 2 | Low |
-| Delete Post | 1 | Iter 3 | Low |
-| View Comment | 1 | Iter 3 | Low |
-| Delete Comment | 1 | Iter 3 | Low |
-
 ---
 
-## AnhNHH - Attendance & Scheduling + Question Management (Cooperates with Nghĩa)
+## AnhNHH - Attendance & Scheduling + Assignment Management + Question Management (Cooperates with Nghĩa)
 
 > **Note:** Cooperates with Nghĩa on Assignment Management and Bank Operations.
 
@@ -129,6 +112,15 @@
 | Take Attendance | 3 | Iter 2 | High |
 | Edit Attendance | 2 | Iter 2 | Medium |
 
+### Assignment Management (Iteration 2 & 3)
+| Function | Effort | Iteration | Priority |
+|----------|--------|-----------|----------|
+| Create Assignment Manual | 3 | Iter 2 | Highest |
+| Update Assignment | 2 | Iter 2 | High |
+| Delete Assignment | 1 | Iter 2 | Low |
+| Create Assignment By Importing From Resource Bank | 2 | Iter 3 | High |
+| Download Resource Bank | 2 | Iter 3 | Medium |
+
 ### Question Management (Iteration 3)
 | Function | Effort | Priority |
 |----------|--------|----------|
@@ -139,7 +131,7 @@
 
 ---
 
-## DuongNC - Learning Materials + Virtual Meeting + Subscription
+## DuongNC - Learning Materials + Posts & Comments + Virtual Meeting + Subscription
 
 ### Learning Class Materials (Iteration 1)
 | Function | Effort | Priority |
@@ -150,6 +142,18 @@
 | Download Materials | 1 | Low |
 | Download Class Material | 1 | Low |
 | Delete Class Material | 1 | Low |
+
+### Posts & Comments (Iteration 2 & 3)
+| Function | Effort | Iteration | Priority |
+|----------|--------|-----------|----------|
+| Create Post | 2 | Iter 2 | Medium |
+| Update Post | 1 | Iter 2 | Low |
+| View Post | 1 | Iter 2 | Medium |
+| Create Comment | 1 | Iter 2 | Medium |
+| Update Comment | 1 | Iter 2 | Low |
+| Delete Post | 1 | Iter 3 | Low |
+| View Comment | 1 | Iter 3 | Low |
+| Delete Comment | 1 | Iter 3 | Low |
 
 ### Virtual Meeting (Iteration 3)
 | Function | Effort | Priority |
@@ -172,9 +176,9 @@
 
 | Member | Iteration 1 | Iteration 2 | Iteration 3 | Total |
 |--------|-------------|-------------|-------------|-------|
-| Nghĩa | 8 | 18 | 11 | 37 |
-| ToanDV | 6 | 16 | 14 | 36 |
-| HuyMT | 9 | 6 | 9 | 24 |
-| AnhNHH | 10 | 9 | 8 | 27 |
-| DuongNC | 9 | 0 | 12 | 21 |
+| Nghĩa | 8 | 12 | 11 | 31 |
+| ToanDV | 6 | 9 | 9 | 24 |
+| HuyMT | 9 | 7 | 7 | 23 |
+| AnhNHH | 10 | 15 | 12 | 37 |
+| DuongNC | 9 | 6 | 15 | 30 |
 | **Total** | **42** | **49** | **54** | **145** |
