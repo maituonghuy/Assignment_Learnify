@@ -1,0 +1,9 @@
+#,Risk Description,Impact,Possibility,Response Plans
+1,Discrepancies between system requirements and actual software implementation.,High,Medium,Conduct frequent peer-reviews of the SRS. Establish a clear Requirement Traceability Matrix.
+2,Unexpected changes or additions to the project requirements during the development phase.,Medium,High,Implement a strict change control process. Define a "Freeze" date for the SRS at Stage 2.
+3,Team members lack necessary expertise in specific tech-stacks (e.g., AI integration, Math rendering).,High,Medium,Allocate 10% of effort for R&D and internal skill-sharing. Seek early feedback from the Mentor.
+4,Internal disagreements or poor synchronization leading to low productivity.,Medium,Medium,Standardize communication channels and hold daily stand-up meetings.
+5,Failure to complete deliverables within the assigned deadlines due to poor estimation.,High,Medium,Set realistic buffer times (10-15%) in the WBS. Monitor progress via a Burn-down chart.
+6,Corruption of the database or accidental deletion of critical learning materials.,Critical,Low,Automate daily incremental and weekly full backups to google drive.
+7,Unexpected downtime or performance degradation of external services (APIs).,Medium,Medium,Design a modular architecture (Decoupling) to allow easy service replacement. Monitor API health logs.
+8,Changes in pricing or usage policies of third-party providers (Google Meet, etc.).,Low,Low,Regularly review providers' Terms of Service. Diversify tech dependencies where possible.

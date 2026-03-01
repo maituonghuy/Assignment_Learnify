@@ -1,0 +1,35 @@
+Activity/Task,Product Owner (Mentor),Scrum Master (PM),Development Team (4 DEVs),Description
+Product Backlog Management,A/R,C,C,"PO creates and prioritizes backlog items"
+Sprint Planning,A/C,R,R/C,"PO defines what; Team defines how; SM facilitates"
+Daily Standup,I,R,A/R,"Team shares progress; SM facilitates; PO can attend"
+Sprint Review,A/R,R,R,"Team demonstrates work; PO accepts/rejects; SM facilitates"
+Sprint Retrospective,C,R,A/R,"Team reflects on process; SM facilitates; PO optional"
+Backlog Refinement,A/R,C,R/C,"PO clarifies requirements; Team estimates; SM facilitates"
+Sprint Execution,I,C,A/R,"Team develops features; SM removes impediments; PO available for questions"
+Acceptance Criteria Definition,A/R,I,C,"PO defines acceptance criteria; Team provides input"
+User Story Creation,A/R,C,C,"PO creates user stories based on stakeholder needs"
+Release Planning,A/R,C,R/C,"PO plans releases; Team provides technical input; SM facilitates"
+Impediment Removal,I,A/R,R,"Team identifies impediments; SM removes them; PO helps if needed"
+Team Coaching,I,A/R,R,"SM coaches team on Scrum practices"
+Stakeholder Communication,A/R,C,I,"PO manages stakeholders; SM supports; Team informed"
+Definition of Done,C,R,A/R,"Team defines DoD; SM facilitates; PO provides input"
+Velocity Tracking,I,R,C,"SM tracks velocity; Team provides data"
+Sprint Goal Setting,A/C,R,R/C,"PO proposes goal; Team commits; SM facilitates"
+Technical Decisions,I,C,A/R,"Team makes technical decisions; SM supports; PO informed"
+Code Review,I,I,A/R,"Team reviews each other's code"
+Testing,I,C,A/R,"Team is responsible for testing; SM supports"
+Deployment,I,C,A/R,"Team handles deployment; SM coordinates"
+Documentation,C,I,A/R,"Team creates documentation; PO provides requirements"
+Performance Evaluation,C,A/R,C,"SM evaluates team performance with PO input"
+
+Legend:
+R = Responsible (Does the work)
+A = Accountable (Has final authority/approval)
+C = Consulted (Provides input)
+I = Informed (Kept up-to-date)
+
+Notes:
+- Product Owner (Mentor): Maximizes product value and manages the Product Backlog
+- Scrum Master (PM): Facilitates Scrum events and removes impediments
+- Development Team (4 DEVs): Self-organizing team that delivers potentially shippable increments
+- Multiple assignments (e.g. A/R) mean the role has both responsibilities

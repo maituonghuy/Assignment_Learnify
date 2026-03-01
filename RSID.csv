@@ -1,0 +1,32 @@
+Responsibility,HuyMT (PM/Scrum Master) HE181917,DuongCH (Developer) HE173192,AnhNHH (Developer) HE187162,NghiaPM (Tech Lead/Dev) HE182314,ToanDV (Developer) HE173549
+Analyst,,,,,
+Planning & Research,"D, R",D,D,S,D
+Requirements Gathering,"D, R",D,D,S,D
+Modeling & Design,I,D,D,R,D
+Documentation,R,D,D,D,D
+Design,,,,,
+High-level System Design,I,D,D,"D, R",D
+Detailed Data & Process Design,I,D,D,"D, R",D
+User Interface Design,I,D,D,"D, R",D
+Non-functional & Security Design,I,D,D,"D, R",D
+Code,,,,,
+Frontend Package,,D,D,R,D
+Backend Package,,D,D,"D, R",D
+Test,,,,,
+Create & Manage Test Plan,"D, R",D,D,S,D
+Unit Test,I,D,D,"D, R",D
+Integration Test,I,D,D,"D, R",D
+System Test,R,D,D,S,D
+UAT & Regression,R,D,D,S,D
+
+Legend:
+D = Do (Performs the work)
+R = Review (Reviews/approves the work)
+S = Support (Provides support/assistance)
+I = Informed (Kept updated)
+<blank> = Omitted (Not involved)
+
+Notes:
+PM/Scrum Master (HuyMT): Does and reviews planning requirements documentation and test management
+Tech Lead (NghiaPM): Does development work and reviews all technical deliverables
+Developers (DuongCH AnhNHH ToanDV): Execute development tasks across all areas
