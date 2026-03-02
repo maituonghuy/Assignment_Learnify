@@ -42,7 +42,7 @@
 
 ---
 
-## ToanDV - Submission & Grading + Analytics
+## ToanDV - Submission & Grading + Analytics + Question Management + Assignment Management
 
 ### Submission & Grading (Iteration 2 & 3)
 | Function | Effort | Iteration | Priority |
@@ -51,6 +51,18 @@
 | Submit Assignment | 2 | Iter 2 | High |
 | Grade Manual Essay | 2 | Iter 2 | Medium |
 | View Grade Submissions | 2 | Iter 2 | Medium |
+
+### Question Management (Iteration 2)
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Update Question In Resource Bank | 2 | Medium |
+| Delete Question In Resource Bank | 1 | Low |
+
+### Assignment Management (Iteration 3)
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Download Resource Bank | 2 | Medium |
+| Create Assignment By Importing From Resource Bank | 2 | High |
 
 ### Analytics & Results (Iteration 3)
 | Function | Effort | Priority |
@@ -114,7 +126,7 @@
 | Delete Class Schedule | 1 | Iter 1 | Low |
 | View Personal Schedule (Teacher) | 1 | Iter 2 | Medium |
 | View Personal Schedule (Student) | 3 | Iter 2 | Medium |
-| Take Attendance | 3 | Iter 2 | High |
+| Take Attendance | 1 | Iter 2 | High |
 | Edit Attendance | 2 | Iter 2 | Medium |
 
 ### Assignment Management (Iteration 3)
@@ -123,15 +135,11 @@
 | Create Assignment Manual | 3 | Highest |
 | Update Assignment | 2 | High |
 | Delete Assignment | 1 | Low |
-| Download Resource Bank | 2 | Medium |
-| Create Assignment By Importing From Resource Bank | 2 | High |
 
 ### Question Management (Iteration 2)
 | Function | Effort | Priority |
 |----------|--------|----------|
 | Create Question By Importing Files | 3 | High |
-| Update Question In Resource Bank | 2 | Medium |
-| Delete Question In Resource Bank | 1 | Low |
 
 ---
 
@@ -182,8 +190,8 @@
 | Member | Iteration 1 | Iteration 2 | Iteration 3 | Total |
 |--------|-------------|-------------|-------------|-------|
 | Nghĩa | 10 | 12 | 11 | 33 |
-| ToanDV | 0 | 9 | 9 | 18 |
+| ToanDV | 0 | 12 | 13 | 25 |
 | HuyMT | 9 | 7 | 7 | 23 |
-| AnhNHH | 16 | 15 | 10 | 41 |
+| AnhNHH | 16 | 10 | 6 | 32 |
 | DuongNC | 7 | 9 | 15 | 31 |
-| **Total** | **42** | **52** | **52** | **146** |
+| **Total** | **42** | **50** | **52** | **144** |
