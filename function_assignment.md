@@ -1,6 +1,6 @@
 # Function Assignment by Sub Feature
 
-## Nghĩa - Sign Up & Sign In + Assignment Management + Bank Operations (AI Features Lead)
+## Nghĩa - Sign Up & Sign In + Question Management + Bank Operations + Assignment Management (AI Features Lead)
 
 > **Note:** Nghĩa is responsible for all AI-related features. Cooperates with AnhNHH on Assignment Management and Bank Operations.
 
@@ -20,13 +20,18 @@
 | View Assignment (Teacher) | 1 | Iter 2 | Medium |
 | View Assignment (Student) | 1 | Iter 2 | High |
 
+### Question Management (Iteration 1)
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Create Question Manual | 2 | High |
+
 ### Bank Operations (Iteration 2)
-| Function | Effort | Iteration | Priority |
-|----------|--------|-----------|----------|
-| Create Resource Bank | 2 | Iter 2 | Highest |
-| Edit Resource Bank | 2 | Iter 2 | Medium |
-| View Resource Bank | 2 | Iter 2 | High |
-| Delete Resource Bank | 1 | Iter 2 | Low |
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Create Resource Bank | 2 | Highest |
+| Edit Resource Bank | 2 | Medium |
+| View Resource Bank | 2 | High |
+| Delete Resource Bank | 1 | Low |
 
 ### AI Features (Iteration 3)
 | Function | Effort | Priority |
@@ -37,15 +42,7 @@
 
 ---
 
-## ToanDV - Profile Management + Submission & Grading + Analytics
-
-### Profile Management (Iteration 1)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Change Password | 2 | Medium |
-| Update Profile | 2 | Medium |
-| View Profile | 1 | High |
-| View Notifications | 1 | Medium |
+## ToanDV - Submission & Grading + Analytics
 
 ### Submission & Grading (Iteration 2 & 3)
 | Function | Effort | Iteration | Priority |
@@ -95,9 +92,17 @@
 
 ---
 
-## AnhNHH - Attendance & Scheduling + Assignment Management + Question Management (Cooperates with Nghĩa)
+## AnhNHH - Profile Management + Attendance & Scheduling + Assignment Management + Question Management (Cooperates with Nghĩa)
 
 > **Note:** Cooperates with Nghĩa on Assignment Management and Bank Operations.
+
+### Profile Management (Iteration 1)
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Change Password | 2 | Medium |
+| Update Profile | 2 | Medium |
+| View Profile | 1 | High |
+| View Notifications | 1 | Medium |
 
 ### Attendance & Scheduling (Iteration 1 & 2)
 | Function | Effort | Iteration | Priority |
@@ -112,19 +117,18 @@
 | Take Attendance | 3 | Iter 2 | High |
 | Edit Attendance | 2 | Iter 2 | Medium |
 
-### Assignment Management (Iteration 2 & 3)
-| Function | Effort | Iteration | Priority |
-|----------|--------|-----------|----------|
-| Create Assignment Manual | 3 | Iter 2 | Highest |
-| Update Assignment | 2 | Iter 2 | High |
-| Delete Assignment | 1 | Iter 2 | Low |
-| Create Assignment By Importing From Resource Bank | 2 | Iter 3 | High |
-| Download Resource Bank | 2 | Iter 3 | Medium |
-
-### Question Management (Iteration 3)
+### Assignment Management (Iteration 3)
 | Function | Effort | Priority |
 |----------|--------|----------|
-| Create Question Manual | 2 | High |
+| Create Assignment Manual | 3 | Highest |
+| Update Assignment | 2 | High |
+| Delete Assignment | 1 | Low |
+| Download Resource Bank | 2 | Medium |
+| Create Assignment By Importing From Resource Bank | 2 | High |
+
+### Question Management (Iteration 2)
+| Function | Effort | Priority |
+|----------|--------|----------|
 | Create Question By Importing Files | 3 | High |
 | Update Question In Resource Bank | 2 | Medium |
 | Delete Question In Resource Bank | 1 | Low |
@@ -155,20 +159,21 @@
 | View Comment | 1 | Iter 3 | Low |
 | Delete Comment | 1 | Iter 3 | Low |
 
-### Virtual Meeting (Iteration 3)
+### Virtual Meeting (Iteration 2)
 | Function | Effort | Priority |
 |----------|--------|----------|
 | Join Meeting | 3 | High |
 
-### Subscription Management (Iteration 1 & 3)
-| Function | Effort | Iteration | Priority |
-|----------|--------|-----------|----------|
-| Create Subscription | 2 | Iter 1 | High |
-| Update Subscription | 2 | Iter 3 | Medium |
-| View Subscriptions | 2 | Iter 3 | Medium |
-| View Transaction History | 2 | Iter 3 | Low |
-| Delete Subscription | 1 | Iter 3 | Low |
-| Buy Subscription | 2 | Iter 3 | High |
+### Subscription Management (Iteration 3)
+| Function | Effort | Priority |
+|----------|--------|----------|
+| Create Subscription | 2 | High |
+| Update Subscription | 2 | Medium |
+| View Subscriptions | 1 | Medium |
+| View Revenue Dashboard | 2 | Medium |
+| View Transaction History | 2 | Low |
+| Delete Subscription | 1 | Low |
+| Buy Subscription | 2 | High |
 
 ---
 
@@ -176,9 +181,9 @@
 
 | Member | Iteration 1 | Iteration 2 | Iteration 3 | Total |
 |--------|-------------|-------------|-------------|-------|
-| Nghĩa | 8 | 12 | 11 | 31 |
-| ToanDV | 6 | 9 | 9 | 24 |
+| Nghĩa | 10 | 12 | 11 | 33 |
+| ToanDV | 0 | 9 | 9 | 18 |
 | HuyMT | 9 | 7 | 7 | 23 |
-| AnhNHH | 10 | 15 | 12 | 37 |
-| DuongNC | 9 | 6 | 15 | 30 |
-| **Total** | **42** | **49** | **54** | **145** |
+| AnhNHH | 16 | 15 | 10 | 41 |
+| DuongNC | 7 | 9 | 15 | 31 |
+| **Total** | **42** | **52** | **52** | **146** |
