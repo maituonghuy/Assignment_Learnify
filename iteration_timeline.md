@@ -1,6 +1,6 @@
 # Project Timeline by Iteration
 
-## Iteration 1 (Total: 48 effort points)
+## Iteration 1 (Total: 45 effort points)
 
 ### Authentication & User Profile
 
@@ -15,7 +15,6 @@
 - Change Password (Nghĩa - 2)
 - Update Profile (AnhNHH - 2)
 - View Profile (AnhNHH - 1)
-- View Notifications (AnhNHH - 1)
 
 ### Class Management
 
@@ -65,10 +64,9 @@
 
 ### Administration & Subscription
 
-#### User & System Management (HuyMT - 4 effort)
-- View User List (2)
+#### User & System Management (HuyMT - 2 effort)
+- View User List (1)
 - View Student Information (1)
-- Remove Student (1)
 
 ---
 
@@ -109,11 +107,12 @@
 - Reset User Password (Nghĩa - 2)
 - View System Dashboard (HuyMT - 2)
 - View Transaction History (HuyMT - 2)
+- Remove Student (HuyMT - 1)
 
 ### Course Content & Communication
 
-#### Posts & Comments (DuongNC - 4 effort)
-- Create Post (2)
+#### Posts & Comments (DuongNC - 3 effort)
+- Create Post (1)
 - Update Post (1)
 - Update Comment (1)
 
@@ -128,7 +127,7 @@
 
 ---
 
-## Iteration 3 (Total: 44 effort points)
+## Iteration 3 (Total: 45 effort points)
 
 ### Assignments & Assessment
 
@@ -172,6 +171,9 @@
 
 ### Administration & Subscription
 
+#### User & System Management (AnhNHH - 1 effort)
+- View Notifications (1)
+
 #### Subscription Management (DuongNC - 6 effort)
 - View Subscriptions (1)
 - View Revenue Dashboard (2)
@@ -186,10 +188,10 @@
 |--------|-------------|-------------|-------------|-------|
 | Nghĩa | 10 | 10 | 10 | 30 |
 | ToanDV | 9 | 10 | 9 | 28 |
-| HuyMT | 9 | 6 | 9 | 24 |
-| AnhNHH | 10 | 10 | 7 | 27 |
-| DuongNC | 10 | 10 | 9 | 29 |
-| **Total** | **48** | **46** | **44** | **138** |
+| HuyMT | 7 | 7 | 9 | 23 |
+| AnhNHH | 9 | 10 | 8 | 27 |
+| DuongNC | 10 | 9 | 9 | 28 |
+| **Total** | **45** | **46** | **45** | **136** |
 
 ---
 

@@ -101,9 +101,9 @@
 ### User & System Management (Iteration 1, 2 & 3)
 | Function | Effort | Iteration | Priority |
 |----------|--------|-----------|----------|
-| View User List | 2 | Iter 1 | High |
+| View User List | 1 | Iter 1 | High |
 | View Student Information | 1 | Iter 1 | Medium |
-| Remove Student | 1 | Iter 1 | Low |
+| Remove Student | 1 | Iter 2 | Low |
 | Update User Status | 2 | Iter 2 | Medium |
 | View System Dashboard | 2 | Iter 2 | Medium |
 | View Transaction History | 2 | Iter 2 | Low |
@@ -122,12 +122,12 @@
 
 > **Note:** Cooperates with Nghĩa on Assignment Management and Bank Operations.
 
-### Profile Management (Iteration 1)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Update Profile | 2 | Medium |
-| View Profile | 1 | High |
-| View Notifications | 1 | Medium |
+### Profile Management (Iteration 1 & 3)
+| Function | Effort | Iteration | Priority |
+|----------|--------|-----------|----------|
+| Update Profile | 2 | Iter 1 | Medium |
+| View Profile | 1 | Iter 1 | High |
+| View Notifications | 1 | Iter 3 | Medium |
 
 ### Attendance & Scheduling (Iteration 1, 2 & 3)
 | Function | Effort | Iteration | Priority |
@@ -171,14 +171,14 @@
 ### Posts & Comments (Iteration 1)
 | Function | Effort | Priority |
 |----------|--------|----------|
-| Create Post | 2 | Medium |
-| Update Post | 1 | Low |
+| Create Post | 1 | Low |
+| View Post | 1 | Medium |
+| Create Comment | 1 | Medium |
 
 ### Posts & Comments (Iteration 2 & 3)
 | Function | Effort | Iteration | Priority |
 |----------|--------|-----------|----------|
-| View Post | 1 | Iter 2 | Medium |
-| Create Comment | 1 | Iter 2 | Medium |
+| Update Post | 1 | Iter 2 | Medium |
 | Update Comment | 1 | Iter 2 | Low |
 | Delete Post | 1 | Iter 3 | Low |
 | View Comment | 1 | Iter 3 | Low |
@@ -211,7 +211,7 @@
 |--------|-------------|-------------|-------------|-------|
 | Nghĩa | 10 | 10 | 10 | 30 |
 | ToanDV | 9 | 10 | 9 | 28 |
-| HuyMT | 9 | 6 | 9 | 24 |
-| AnhNHH | 10 | 10 | 7 | 27 |
-| DuongNC | 10 | 10 | 9 | 29 |
-| **Total** | **48** | **46** | **44** | **138** |
+| HuyMT | 7 | 7 | 9 | 23 |
+| AnhNHH | 9 | 10 | 8 | 27 |
+| DuongNC | 10 | 9 | 9 | 28 |
+| **Total** | **45** | **46** | **45** | **136** |
