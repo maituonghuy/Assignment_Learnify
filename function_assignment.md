@@ -23,6 +23,10 @@
 |----------|--------|-----------|----------|
 | Create Question Manual | 5 | Iter 1 | High |
 | Create Question With AI | 10 | Iter 2 | High |
+| Update Question In Resource Bank | 5 | Iter 2 | Medium |
+| Delete Question In Resource Bank | 2 | Iter 2 | Low |
+| Download Resource Bank | 5 | Iter 2 | Medium |
+| Create Question By Importing Files | 7 | Iter 2 | High |
 
 ### Bank Operations (Iteration 1, 2 & 3)
 | Function | Effort | Iteration | Priority |
@@ -33,17 +37,26 @@
 | Reset User Password | 5 | Iter 2 | Medium |
 | Delete Resource Bank | 2 | Iter 3 | Low |
 
-### Assignment Management (Iteration 3)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| View Assignment (Student) | 2 | High |
-| View Assignment (Teacher) | 2 | Medium |
-| Create Assignment With AI | 7 | Highest |
+### Assignment Management (Iteration 2 & 3)
+| Function | Effort | Iteration | Priority |
+|----------|--------|-----------|----------|
+| Create Assignment Manual | 7 | Iter 2 | Highest |
+| Update Assignment | 5 | Iter 2 | High |
+| Create Assignment By Importing From Resource Bank | 5 | Iter 2 | High |
+| Create Assignment By Uploading Files | 7 | Iter 2 | Highest |
+| Delete Assignment | 2 | Iter 2 | Low |
+| View Assignment (Student) | 2 | Iter 3 | High |
+| View Assignment (Teacher) | 2 | Iter 3 | Medium |
+| Create Assignment With AI | 7 | Iter 3 | Highest |
 
 ### Submission & Grading (Iteration 3)
 | Function | Effort | Priority |
 |----------|--------|----------|
 | Grade Essay With AI Feedback | 12 | High |
+| Attempt Assignment | 7 | High |
+| Submit Assignment | 5 | High |
+| Grade Manual Essay | 5 | Medium |
+| View Grade Submissions | 5 | Medium |
 
 ---
 
@@ -58,32 +71,13 @@
 | Approve/Reject Student Requests | 3 | High |
 | Leave Class | 2 | Low |
 
-### Question Management (Iteration 2)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Update Question In Resource Bank | 5 | Medium |
-| Delete Question In Resource Bank | 2 | Low |
-| Download Resource Bank | 5 | Medium |
-
-### Assignment Management (Iteration 2)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Create Assignment Manual | 7 | Highest |
-| Update Assignment | 5 | High |
-
 ### User & System Management (Iteration 2)
 | Function | Effort | Priority |
 |----------|--------|---------|
 | View Student Information | 2 | Medium |
 | View User List | 3 | High |
-
-### Submission & Grading (Iteration 3)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Attempt Assignment | 7 | High |
-| Submit Assignment | 5 | High |
-| Grade Manual Essay | 5 | Medium |
-| View Grade Submissions | 5 | Medium |
+| Remove Student | 2 | Low |
+| Update User Status | 5 | Medium |
 
 ---
 
@@ -92,8 +86,6 @@
 ### User & System Management (Iteration 2)
 | Function | Effort | Priority |
 |----------|--------|---------|
-| Remove Student | 2 | Low |
-| Update User Status | 5 | Medium |
 | View System Dashboard | 5 | Medium |
 
 ### Analytics & Results (Iteration 3)
@@ -127,18 +119,6 @@
 | View Class Schedule (Student) | 5 | Iter 2 | High |
 | Take Attendance | 7 | Iter 2 | High |
 | Edit Attendance | 2 | Iter 3 | Medium |
-
-### Question Management (Iteration 2)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Create Question By Importing Files | 7 | High |
-
-### Assignment Management (Iteration 3)
-| Function | Effort | Priority |
-|----------|--------|----------|
-| Create Assignment By Importing From Resource Bank | 5 | High |
-| Create Assignment By Uploading Files | 7 | Highest |
-| Delete Assignment | 2 | Low |
 
 ---
 
@@ -195,9 +175,9 @@
 
 | Member | Iteration 1 | Iteration 2 | Iteration 3 | Total |
 |--------|-------------|-------------|-------------|-------|
-| Nghĩa | 33 | 25 | 25 | 83 |
-| ToanDV | 12 | 29 | 22 | 63 |
-| HuyMT | 0 | 12 | 22 | 34 |
-| AnhNHH | 26 | 24 | 18 | 68 |
+| Nghĩa | 35 | 70 | 47 | 152 |
+| ToanDV | 12 | 12 | 0 | 24 |
+| HuyMT | 0 | 5 | 22 | 27 |
+| AnhNHH | 26 | 17 | 4 | 47 |
 | DuongNC | 29 | 32 | 19 | 80 |
-| **Total** | **100** | **122** | **106** | **328** |
+| **Total** | **102** | **136** | **92** | **330** |
