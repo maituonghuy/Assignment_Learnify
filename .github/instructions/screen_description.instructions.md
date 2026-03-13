@@ -2,33 +2,29 @@
 applyTo: '**'
 ---
 
-# Screen Description Generation Instructions
+# Hướng dẫn tạo mô tả màn hình
 
-## Input
-- HTML mockup file (low-fidelity wireframe)
-- Use case description and functional requirements
+## Đầu vào
+- File mockup HTML (wireframe low-fidelity)
+- Mô tả use case và yêu cầu chức năng
 
-## Output Format
-Generate a simple screen description document with only the Screen Elements section in markdown table format:
+## Định dạng đầu ra
+Tạo tài liệu mô tả màn hình đơn giản, chỉ bao gồm phần Các thành phần màn hình theo định dạng bảng markdown:
 
 ```markdown
-# UC-[ID]: [Use Case Name] - Screen Description
+# UC-[ID]: [Tên Use Case] - Mô tả màn hình
 
-## Screen Elements
+## Các thành phần màn hình
 
-| Field Name | Description |
-|------------|-------------|
-| **[Field/Element Name in Vietnamese]** | [Type]: [Data type, constraints, behavior, validation rules, etc.] |
+| Tên trường | Mô tả |
+|------------|-------|
+| **[Tên trường/thành phần bằng tiếng Việt]** | [Loại]: [Kiểu dữ liệu, ràng buộc, hành vi, quy tắc validation, v.v.] |
 ```
 
-## Guidelines
-- List all visible screen elements
-- Include input fields, buttons, labels, and display elements
-- Specify data types, constraints, and validation rules
-- Document required vs optional fields
-- Describe button actions and behaviors
-- Note any error messages or notifications
-- Keep the output simple - only include the title and Screen Elements table
-- Do not add additional sections like Validation Rules, Business Rules, or Post-Submission Behavior
- - Field names: Display each Field Name in Vietnamese. If helpful, include the English term in parentheses after the Vietnamese label (example: **Tên lớp (Class Name)**).
+|Tên trường |Mô tả|
+|Form Title|Text / Heading: Main heading displaying "Đăng Ký Tài Khoản" (Register Account).|
+|Vai trò (Role) |Toggle Group / Buttons: Mandatory selection for the user's role, providing options for "Giáo Viên" (Teacher) and "Học Sinh" (Student).|
+|Họ và Tên (Full Name) |Text Input: Mandatory input field for the user's full name with the placeholder "Nhập họ và tên của bạn".|
+|Email |Email Input: Mandatory input field for the user's email with the placeholder "example@email.com" and helper text explaining it will be used for login and notifications.|
+
 

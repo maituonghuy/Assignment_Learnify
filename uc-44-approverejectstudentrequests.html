@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yêu cầu tham gia đang chờ duyệt</title>
+  <style>
+    /* Low-fidelity wireframe - Grayscale only */
+    :root{--bg:#ffffff;--line:#000000;--muted:#cccccc;--panel:#f0f0f0}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--line);background:var(--bg)}
+    .app{display:flex;min-height:100vh}
+    header{height:64px;display:flex;align-items:center;padding:0 20px;border-bottom:2px solid var(--line);background:var(--bg)}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:700}
+    .brand .image-placeholder{width:56px;height:40px;border:2px solid var(--line);display:inline-block}
+
+    /* Layout */
+    .sidebar{width:240px;border-right:2px solid var(--line);Padding:20px;padding:20px;background:#fff}
+    .sidebar h3{margin:0 0 12px 0;font-size:14px}
+    .nav{list-style:none;padding:0;margin:0}
+    .nav li{padding:8px 0;border-bottom:1px solid var(--muted);font-size:14px}
+
+    main{flex:1;padding:24px}
+    .container{max-width:1100px;margin:0 auto}
+
+    /* Wireframe components */
+    .card{border:2px solid var(--line);background:var(--panel);padding:12px}
+    .row{display:flex;align-items:center;gap:12px}
+    .title{font-size:18px;font-weight:600;margin:0 0 12px 0}
+
+    .controls{display:flex;gap:8px;margin:12px 0}
+    .btn{border:2px solid var(--line);background:var(--panel);padding:8px 14px;cursor:pointer}
+    .btn.positive{background:#e9f0e9}
+    .btn.danger{background:#fff0f0}
+
+    table{width:100%;border-collapse:collapse;border:2px solid var(--line);background:#fff}
+    th,td{padding:10px;border-bottom:1px solid var(--muted);text-align:left}
+    th{border-bottom:2px solid var(--line);background:var(--panel)}
+
+    /* Image placeholder with X using ::before and ::after */
+    .image-placeholder{overflow:hidden;position:relative;background:#ffffff}
+    .image-placeholder::before,
+    .image-placeholder::after{
+      content:"";position:absolute;left:15%;top:50%;height:2px;width:70%;background:var(--line);transform-origin:center;display:block
+    }
+    .image-placeholder::before{transform:translateY(-50%) rotate(45deg)}
+    .image-placeholder::after{transform:translateY(-50%) rotate(-45deg)}
+
+    /* Avatar in table */
+    .avatar{width:40px;height:40px;border:2px solid var(--line);display:inline-block;margin-right:8px;vertical-align:middle}
+
+    /* Modal */
+    .modal-backdrop{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,0.2)}
+    .modal{width:400px;border:2px solid var(--line);background:var(--bg);padding:16px}
+    .modal h4{margin:0 0 12px 0}
+    .modal .actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+
+    /* Accessibility & small helpers */
+    /* Show sample/demo text in high-contrast black as requested */
+    .muted{color:var(--line);font-size:13px}
+    input[type="checkbox"]{width:16px;height:16px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="image-placeholder" aria-hidden="true"></span>
+      <span>Learnify</span>
+    </div>
+  </header>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div style="margin-bottom:12px;padding:10px;border-bottom:1px solid var(--muted)">
+        <div style="font-weight:700">Toán nâng cao - Lớp A</div>
+        <div class="muted">Mã lớp: ABC123</div>
+        <div class="muted">Đường dẫn chia sẻ: https://learnify.example/class/ABC123</div>
+      </div>
+      <ul class="nav">
+        <li>Bảng tin</li>
+        <li>Lịch học</li>
+        <li>Thành viên</li>
+        <li>Bài tập</li>
+        <li>Bảng điểm</li>
+        <li>Tài liệu</li>
+        <li>Bài giảng</li>
+      </ul>
+    </aside>
+
+    <main>
+      <div class="container">
+        <div class="title">Yêu cầu tham gia đang chờ duyệt</div>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+          <div class="card" style="display:inline-block;padding:8px 12px;border-radius:0">
+            <div class="muted">Lớp: Toán nâng cao - Lớp A</div>
+            <div class="muted">Sức chứa: 60 &nbsp;|&nbsp; Hiện tại: 45</div>
+          </div>
+          <div class="muted">Hiển thị: Yêu cầu đang chờ (Pending)</div>
+        </div>
+
+        <div class="controls">
+          <button class="btn" id="approveBtn">Duyệt</button>
+          <button class="btn" id="rejectBtn">Từ chối</button>
+          <div style="margin-left:auto" class="muted">Chọn nhiều hàng để xử lý đồng thời</div>
+        </div>
+
+        <table aria-label="Danh sách yêu cầu">
+          <thead>
+            <tr>
+              <th style="width:48px"><input type="checkbox" aria-label="Chọn tất cả" /></th>
+              <th>Học sinh</th>
+              <th>Email</th>
+              <th>Thời gian yêu cầu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td><span class="avatar image-placeholder" aria-hidden="true"></span><span class="muted">Nguyễn Văn A</span></td>
+              <td><span class="muted">nga@example.com</span></td>
+              <td><span class="muted">2026-02-01 09:12</span></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td><span class="avatar image-placeholder" aria-hidden="true"></span><span class="muted">Trần Thị B</span></td>
+              <td><span class="muted">ttb@example.com</span></td>
+              <td><span class="muted">2026-02-02 14:05</span></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td><span class="avatar image-placeholder" aria-hidden="true"></span><span class="muted">Phạm Văn C</span></td>
+              <td><span class="muted">pvc@example.com</span></td>
+              <td><span class="muted">2026-02-03 11:20</span></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td><span class="avatar image-placeholder" aria-hidden="true"></span><span class="muted">Đặng Dương</span></td>
+              <td><span class="muted">dd@example.com</span></td>
+              <td><span class="muted">2026-02-04 08:40</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <!-- Reject confirmation modal -->
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-hidden="true">
+    <div class="modal" role="document" aria-labelledby="modalTitle">
+      <h4 id="modalTitle">Xác nhận từ chối yêu cầu</h4>
+      <p>Bạn có muốn từ chối yêu cầu tham gia lớp học không?</p>
+      <div class="actions">
+        <button class="btn" id="modalCancel">Hủy</button>
+        <button class="btn" id="modalConfirm">Xác nhận</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Minimal interactivity for demo: open/close reject confirmation modal
+    const rejectBtn = document.getElementById('rejectBtn');
+    const backdrop = document.getElementById('modalBackdrop');
+    const cancel = document.getElementById('modalCancel');
+    const confirm = document.getElementById('modalConfirm');
+
+    rejectBtn.addEventListener('click', ()=>{
+      backdrop.style.display = 'flex';
+      backdrop.setAttribute('aria-hidden','false');
+    });
+    cancel.addEventListener('click', ()=>{ backdrop.style.display='none'; backdrop.setAttribute('aria-hidden','true'); });
+    confirm.addEventListener('click', ()=>{
+      backdrop.style.display='none'; backdrop.setAttribute('aria-hidden','true');
+      alert('Các yêu cầu được đánh dấu là "Rejected". (Demo)');
+    });
+  </script>
+</body>
+</html>
